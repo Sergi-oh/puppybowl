@@ -1,0 +1,38 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: antiquewhite;
+}
+
+.selected{
+    border: solid 2px black;
+}
+
+nav{
+    background-color: bisque;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+nav a {
+    color:black;
+    padding: 1rem;
+}
+
+#info > div{
+    height: 100vh;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    font-size: 2rem;
+    padding: 3rem;
+    color: aliceblue;
+    text-shadow: 2px 2px  black;
+}
+
+@media (max-width: 600px){
+    nav {
+        flex-direction: column;
+    }
+}
